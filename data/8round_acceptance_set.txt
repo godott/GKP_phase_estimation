@@ -1,0 +1,38 @@
+## This file contains the acceptance sets for 8 rounds of adaptive phase estimation with different configuration.
+## The range of the integral for calculating gamma each round (equation 19 in Terhal, Weigand) is chosen to be 0-2pi.
+
+## With initial phase gamma_0 = 0.5pi, the acceptance set is:
+
+string    |  largest shift error due to single measurement error
+-----------------------------------------------------------------
+00100000  |  0.15720875357723002
+00101000  |  0.28504936465102987
+00100101  |  0.2435829317248513
+10101111  |  0.24928633166805192
+00100110  |  0.1627287997119286
+10100101  |  0.24358293172485138
+00101111  |  0.24928633166805197
+10100000  |  0.1572087535772301
+10100001  |  0.2800511854310649
+00101011  |  0.26680162011038655
+00101110  |  0.10234438597344063
+10100111  |  0.27556645094273136
+00100111  |  0.27556645094273136
+00100001  |  0.2800511854310649
+10101000  |  0.2850493646510294
+10100110  |  0.16272879971192913
+10101011  |  0.2668016201103864
+10101110  |  0.10234438597344031
+
+Total: 18 strings, 6.25% probability in total.
+
+## With initial phase gamma_0 = 0, the acceptance set is:
+
+string    |  largest shift error due to single measurement error
+----------------------------
+00101011  |  0.2696683995491346
+00100101  |  0.237482606339883
+00100110  |  0.12200882969052215
+00101110  |  0.24744041149913734
+
+Total: 4 strings, 2.28% probability.
